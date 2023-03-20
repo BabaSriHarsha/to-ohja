@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class ToolbarComponent {
 
+  displaySearch: boolean= false;
+
+  displaySearchBar(value:boolean) {
+    this.displaySearch = value;
+  }
+  
+
 }
